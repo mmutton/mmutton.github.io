@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
  <head>
@@ -16,15 +16,15 @@
     <!-- Custom styles for this template -->
 	<link href="css/portfolio-item.css" rel="stylesheet">
 	<link href="css/form.css" rel="stylesheet">
+    <link rel="shortcut icon" href="purpleRainbowFavicon.ico" type="image/x-icon" />
 </head>
 
  <body>
 
  <!-- Navigation -->
-   
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container">
-				<a class="navbar-brand" href="#containter">
+				<a class="navbar-brand" href="#containter"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -38,15 +38,15 @@
 				<li class="nav-item">
 					<a class="nav-link" href="#services">Services</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#flowers">Pretty Flowers</a>
-				</li>
-				<li class="nav-item">
+                <li class="nav-item">
 					<a class="nav-link" href="#websites">Websites</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#contact">Contact</a>
 				</li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#flowers">Pretty Flowers</a>
+                </li>
 			</ul>
         </div>
 		</div>
@@ -56,8 +56,9 @@
 
    <div class="container">
 		<h1 class="my-4">Molly Brooke
-			<small>website design portfolio</small>
+			<small>web dev and design</small>
 		</h1>
+  </div>
 
     <!-- Portfolio main section-->
 	<div class="row">
@@ -66,7 +67,7 @@
 		</div>
 		<div class="col-md-4">
           <h3 class="my-3">design philosophy:</h3>
-			<p> For many businesses, a website is the front door, the display window, mailbox and often the cash register, all wrapped up in one pretty bundle. I think it should be simple to navigate and nice to look at, just like your front door.  </p>
+			<p>A website is the front door, display window, mailbox and often the cash register for many businesses. From portfolio to professional, small business to service providers, a strong web presense is an essential tool. My goal is to create sites that look and feel like walking in the most inviting front door and finding just what you're looking for inside.<br /> Simple, Easy to Navigate and Beautiful.</p>
           <h3 class="my-3">tools:</h3>
 			<ul>
 				<li>HTML</li>
@@ -84,7 +85,7 @@
 	 
 	 <!-- Website Row -->
   <section id="websites">
-	  <h4 class="my-4">Websites:</h4>
+	  <h4 class="my-4">&nbsp; &nbsp;websites:</h4>
 		<ul>
 			<li>Real Estate</li>
 			<li>Artist's Portfolio</li>
@@ -94,26 +95,28 @@
 
 		<div class="row">
 			<div class="col-md-3 col-sm-6 mb-4">
-				<a href="https://www.mauihaven.com/">
+				<a href="https://www.mauihaven.com/" target="blank">
 			<img class="img-fluid" src=".//images/maui_haven_screenshot.jpg" alt="">	
 				</a>
 			</div>
 			<div class="col-md-3 col-sm-6 mb-4">
-				<a href="https://www.rbytrnr.com/">
+				<a href="https://www.rbytrnr.com/"target="blank">
 				<img class="img-fluid" src=".//images/rbytrnr_border.jpg" alt="">
 				</a>
 			</div>
 			<div class="col-md-3 col-sm-6 mb-4">
-				<a href="https://www.angelroseink.com/">
+				<a href="https://www.angelroseink.com/" target="blank">
 				<img class="img-fluid" src=".//images/angel_rose_border.jpg" alt="">
 				</a>
 			</div>
 			<div class="col-md-3 col-sm-6 mb-4">
-				<a href="https://www.wendyhudsonlaw.com/">
+				<a href="https://www.wendyhudsonlaw.com/" target="blank"
+				>
 				<img class="img-fluid" src=".//images/Hudson_Law_1.jpg" alt="">
 				</a>
 			</div>
 		</div>
+  </section>
 
 	 <!-- /websites row -->
 	
@@ -190,6 +193,7 @@
 		<span class="sr-only">Next</span>
 	</a>
 </div>
+    </section>
 	<!-- /flower carousel -->
 	
 	<!--  contact -->
@@ -198,7 +202,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                    <p class="section-heading">If you have a website or design project you want to talk about...</p>
-				 <button><a href="https://www.linkedin.com/in/mollybrooke">Contact Me!</a></button>   
+					<button onclick="location.href= 'https://www.linkedin.com/in/mollybrooke/';" target="blank" type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Contact me on Linkedin">
+				Contact me! 
+				</button>
 				</div>
 			</div>
     </section>
@@ -206,10 +212,10 @@
 	<p class="lead"></p>
 
 	<!-- Footer -->
-    <footer class="py-4 bg-dark">
+    <footer class="py-2 bg-dark">
      <div class="container">
-        <p class="m-0 text-center text-white">This site was made with <b>aloha</b> by Molly Brooke</p>
-		<p><font color="white" font size="14" style="text-align:center">&#x2740;</font></p>
+        <p class="m-0 text-center text-white">This site was made with <b>aloha</b> by Molly Brooke<br />&#x2740;</p>
+	
 	 </div>
       <!-- /.container -->
     </footer>
@@ -218,6 +224,10 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+ 
 
   </body>
   
