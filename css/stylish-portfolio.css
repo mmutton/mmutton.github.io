@@ -325,7 +325,7 @@ footer.footer .social-link {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); 
 }
 footer.footer .social-link:hover {
-  background-color: #B115CC;
+  background-color: #A80B00;
   text-decoration: none; 
 }
 
@@ -356,6 +356,10 @@ a:hover, a:focus, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #AD03F7 !important;
   border-color: rgba(29,100,74,.25) !important; 
+}
+.btn-light:focus {
+  color: #A80B00;
+
 }
 
 .btn-dark  {
