@@ -43,6 +43,12 @@ h1.mb-1 {
   color: #000;
   text-shadow: 0 0 1.0rem #03BF94;
 }
+h3.mb-5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: 0 0 .75rem #03BF94;
+}
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); 
