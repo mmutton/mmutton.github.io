@@ -301,6 +301,16 @@ h3.mb-5 {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); 
   } 
+  #projects .portfolio-item .capton-content p !important{
+    color:#000;
+  }
+
+    #projects .portfolio-item:hover .caption{
+   /* background-color: rgba(92,6,0, 0.9);*/
+   background-color: rgba(0,33,63,0.8);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem); 
+  } 
 }
 #squarespace {
   width: 1em;
