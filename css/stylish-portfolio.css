@@ -371,17 +371,14 @@ a:hover, a:focus, a:active {
   background-color: #3A69CA;
 }
 
-.btn-dark  {
-  color: #fff !important; 
-}
-
 .btn-dark {
   background-color: #000203 !important;
-  color: #fff !important; 
+  color: #fff !important;
 }
 .btn-dark:hover, /*.btn-dark:focus, */.btn-dark:active {
   background-color: #3A69CA !important;
-  border-color: rgba(29,100,74,.25) !important;
+  /*border-color: rgba(29,100,74,.25) !important;*/
+  border-color: #f8f9fa; 
 }
 .btn-dark:focus {
   box-shadow: 0 0 0 0.2rem rgba(75,65,79,.5);
