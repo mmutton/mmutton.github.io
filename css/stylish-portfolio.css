@@ -213,7 +213,7 @@ h3.mb-5 {
 
 .service-icon {
   background-color: #000;
-  color: #026C7F;
+  color: #3A69CA;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -296,7 +296,8 @@ h3.mb-5 {
     clip-path: inset(2rem); 
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(92,6,0, 0.9);
+   /* background-color: rgba(92,6,0, 0.9);*/
+   background-color: rgba(229,0,63,0.8);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); 
   } 
@@ -306,14 +307,14 @@ h3.mb-5 {
   height: 1em;
   display: inline-block;
   vertical-align: -.125em;
-  fill: #026C7F !important;
+  fill: #3A69CA !important;
 }
 #bigB {
   width: 1em;
   height: 1em;
   display: inline-block;
   vertical-align: -.125em;
-  fill: #026C7F !important;
+  fill: #3A69CA !important;
 }
 
 footer.footer {
@@ -331,7 +332,7 @@ footer.footer .social-link {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); 
 }
 footer.footer .social-link:hover {
-  background-color: #A80B00;
+  background-color: rgb(229,0,63);
   text-decoration: none; 
 }
 
@@ -364,8 +365,10 @@ a:hover, a:focus, a:active {
   border-color: rgba(29,100,74,.25) !important; 
 }
 .btn-light:focus {
-  color: #A80B00;
-
+  color: rgb(229,0,63);
+}
+.btn-light:hover {
+  background-color: #3A69CA;
 }
 
 .btn-dark  {
@@ -376,8 +379,8 @@ a:hover, a:focus, a:active {
   background-color: #000203 !important;
   color: #fff !important; 
 }
-.btn-dark:hover, .btn-dark:focus, .btn-dark:active {
-  background-color: #03BF94 !important;
+.btn-dark:hover, /*.btn-dark:focus, */.btn-dark:active {
+  background-color: #3A69CA !important;
   border-color: rgba(29,100,74,.25) !important;
 }
 .btn-dark:focus {
