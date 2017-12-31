@@ -307,7 +307,7 @@ h3.mb-5 {
 
     #projects .portfolio-item:hover .caption{
    /* background-color: rgba(92,6,0, 0.9);*/
-   background-color: rgba(0,33,63,0.8);
+   background-color: rgba(58,105,202,0.8);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); 
   } 
@@ -326,10 +326,9 @@ h3.mb-5 {
   vertical-align: -.125em;
   fill: #3A69CA !important;
 }
-
 footer.footer {
   padding-top: 5rem;
-  padding-bottom: 5rem; 
+  padding-bottom: 1rem; 
 }
 footer.footer .social-link {
   display: block;
