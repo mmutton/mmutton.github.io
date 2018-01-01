@@ -409,3 +409,9 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #152C35 !important; 
 }
+/*span#streamOn.caption-content {
+  font-size: .5rem;
+  color: red;
+  text-shadow: 1px 1px #000-;
+
+}*/
