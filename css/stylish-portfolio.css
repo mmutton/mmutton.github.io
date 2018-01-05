@@ -340,7 +340,7 @@ footer.footer .social-link {
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); 
 }
-footer.footer .social-link:hover
+footer.footer .social-link:hover{
   background-color: #afacaf;
   text-decoration: none; 
 }
