@@ -297,7 +297,7 @@ h3.mb-5 {
   }
   .portfolio-item:hover .caption {
    /* background-color: rgba(92,6,0, 0.9);*/
-   background-color: rgba(229,0,63,0.8);
+   background-color: rgba(58,105,202,0.8);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); 
   } 
@@ -307,7 +307,7 @@ h3.mb-5 {
 
     #projects .portfolio-item:hover .caption{
    /* background-color: rgba(92,6,0, 0.9);*/
-   background-color: rgba(58,105,202,0.8);
+   background-color: rgba(24, 181,128,0.8)
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); 
   } 
