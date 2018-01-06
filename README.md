@@ -10,7 +10,7 @@ This is a design portfolio website which includes links to select websites and p
 
 ![Portfoli](/img/PortfolioSite_Screenshot.png)
 
-##The Arctic project: 
+## The Arctic project: 
 A whimsical single page site that explores life at the North Pole.
 In addition to a beautiful background image and soft text colors, Arctic includes a fun "why" button which takes the visitor to the reason for Fox's warm coat.
 
