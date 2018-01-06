@@ -1,16 +1,16 @@
-# Project Name: Arctic
+## Project Name: Arctic
  
-## Description: Arctic is a whimsical single page site that explores life at the North 	
-	Pole.
+### Description: 
+Arctic is a whimsical single page site that explores life at the North Pole.
 
-	A beautiful background image and soft text colors greets the visitor, and a fun "why" button is irresistible.
+In addition to a beautiful background image and soft text colors, Arctic includes a fun "why" button which takes the visitor to the reason for Fox's warm coat.
 
- 	Dropdown menu links to web sources which pertain to life in the Arctic, including a conservation site, NASA's take on climate change in the Arctic region, and Unsplash.com for more beautiful images.
+Three dropdown menu reveal links to web sources pertaining to life in the Arctic region, including a conservation site, NASA's take on climate change, and Unsplash.com for a look at additional beautiful images.
 
-	This project was created just for fun, but includes some interesting content and pretty pictures.
+This project was created just for fun, but includes some interesting content and pretty pictures.
 
-	* Photo Credit: Jonatan Pie (via Unsplash.com)
+* Photo Credit: Jonatan Pie (via Unsplash.com)
 
-	* visit the Arctic: https://mmutton.github.io/Arctic%20Fox/index.html 
+* visit the Arctic: https://mmutton.github.io/Arctic%20Fox/index.html 
 
 ![Arctic](/img/ArcticFoxScreenshot.png)
