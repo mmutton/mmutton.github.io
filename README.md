@@ -11,4 +11,4 @@
 
 	* Photo Credit: Jonatan Pie (via Unsplash.com)
 
-![Arctic](/img/ArcticFox.jpeg)
+![Arctic](/img/ArcticFoxScreenshot.png)
