@@ -11,8 +11,6 @@
 
 	* Photo Credit: Jonatan Pie (via Unsplash.com)
 
-	* visit the Arctic: https://mmutton.github.io/Arctic%20Fox/index.html - automatic!
-		[Arctic](https://mmutton.github.io/Arctic%20Fox/index.html)
-
+	* visit the Arctic: https://mmutton.github.io/Arctic%20Fox/index.html 
 
 ![Arctic](/img/ArcticFoxScreenshot.png)
