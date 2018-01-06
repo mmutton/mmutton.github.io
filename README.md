@@ -1,6 +1,6 @@
 # Project Name: Arctic
  
-  * Description: Arctic is a whimsical single page site that explores life at the North 	
+## Description: Arctic is a whimsical single page site that explores life at the North 	
 	Pole.
 
 	A beautiful background image and soft text colors greets the visitor, and a fun "why" button is irresistible.
