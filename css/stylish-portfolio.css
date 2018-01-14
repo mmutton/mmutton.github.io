@@ -54,21 +54,6 @@ h3.mb-5 {
   color: rgba(255, 255, 255, 0.7); 
 }
 
-/* Map */
-/*.map {
-  height: 30rem; 
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%; 
-  } */
-}
-
-.map iframe {
-  pointer-events: none; 
-}
-
 .scroll-to-top {
   position: fixed;
   right: 15px;
@@ -101,6 +86,7 @@ h3.mb-5 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/RainbowComputer.jpeg"); /*photo credit: NeONBRAND*/
+  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -225,6 +211,7 @@ h3.mb-5 {
 .callout {
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/BlackWhiteComputer.jpeg");  /*photo credit: seth schwiet*/
+  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -414,5 +401,9 @@ a:hover, a:focus, a:active {
   font-size: .5rem;
   color: red;
   text-shadow: 1px 1px #000-;
-
 }*/
+
+/*section#about.content-section.bg-light {
+  background-opacity: 0.5;
+  filter:alpha(opacity=x);*/
+}
