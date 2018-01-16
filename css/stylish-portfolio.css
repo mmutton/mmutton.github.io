@@ -76,9 +76,12 @@ h3.mb-5 {
   font-weight: 800; 
 }
 
-.masthead {
-  font-family: 'Questrial', sans-serif;
-  min-height: 30rem;
+header.masthead.d-flex.fixed-img {
+  background-image: url("../img/RainbowComputer.jpeg");
+
+/*.masthead {
+  font-family: 'Questrial', sans-serif;*/
+/*  min-height: 30rem;
   position: relative;
   display: table;
   width: 100%;
@@ -86,15 +89,20 @@ h3.mb-5 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/RainbowComputer.jpeg"); /*photo credit: NeONBRAND*/
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover !important; 
+ /* background-attachment: fixed;*/
+ height: 100%;
+ width: 100%;
+ position: fixed;
+ background-position:center;
+ background-repeat: no-repeat;
+ background-size: cover ; 
+ z-index: -1;
 }
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
   padding: 0; 
+  font-family: 'Questrial', sans-serif
 }
 @media (min-width: 992px) {
   .masthead {
