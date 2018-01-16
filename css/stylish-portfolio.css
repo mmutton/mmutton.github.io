@@ -86,7 +86,7 @@ h3.mb-5 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/RainbowComputer.jpeg"); /*photo credit: NeONBRAND*/
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; 
@@ -103,6 +103,11 @@ h3.mb-5 {
   .masthead h1 {
     font-size: 5.5rem; 
   } 
+}
+@media screen and (max-width:800px){
+.masthead{
+background-attachment:scroll;
+}
 }
 
 /* Side Menu */
@@ -211,10 +216,15 @@ h3.mb-5 {
 .callout {
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/BlackWhiteComputer.jpeg");  /*photo credit: seth schwiet*/
- /* background-attachment: fixed;*/
+  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; 
+}
+@media screen and (max-width:800px){
+.callout{
+background-attachment:scroll;
+}
 }
 .callout h2 {
   font-size: 3.5rem;
