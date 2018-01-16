@@ -98,12 +98,17 @@ h3.mb-5 {
 }
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh; 
-  }
+    height: 100vh;
+}
   .masthead h1 {
     font-size: 5.5rem; 
-  } 
+} 
+@media (hover: none){
+  .masthead {
+    background-attachment: initial;
+  }
 }
+
 
 /* Side Menu */
 #sidebar-wrapper {
@@ -408,8 +413,3 @@ a:hover, a:focus, a:active {
   filter:alpha(opacity=x);*/
 /*}*/
 
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
