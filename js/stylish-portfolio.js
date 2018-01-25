@@ -9,6 +9,7 @@
     $(this).toggleClass("active");
   });
 
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -22,6 +23,7 @@
       }
     }
   });
+
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('#sidebar-wrapper .js-scroll-trigger').click(function() {
@@ -62,3 +64,4 @@ var onMapClickHandler = function(event) {
 }
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
+
