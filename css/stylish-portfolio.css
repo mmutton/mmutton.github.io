@@ -30,6 +30,9 @@ body {
   font-size: 1rem;
   text-transform: uppercase; 
 }
+p.lead.mb-5 span #smaller {
+  font-size: .3rem;
+}
 
 h1,
 h2,
@@ -42,6 +45,9 @@ h6 {
 h1.mb-1 {
   color: #000;
   text-shadow: 0 0 1.0rem #03BF94;
+}
+h2.mb-5 {
+  font-weight: 700;
 }
 h3.mb-5 {
   font-family: 'Lato', sans-serif;
@@ -84,7 +90,7 @@ h3.mb-5 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/whiteComputer.jpeg"); /*photo credit: NeONBRAND*/
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/whiteComputerTrim.png"); /*photo credit: NeONBRAND*/
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -226,8 +232,9 @@ background-attachment:scroll;
 }
 }
 .callout h2 {
+  color: rgb(255, 255, 255);
   font-size: 3.5rem;
-  font-weight: 700;
+  font-weight: 500;
   display: block;
   max-width: 30rem; 
  
@@ -297,7 +304,6 @@ background-attachment:scroll;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); 
   } 
-  
   #projects .portfolio-item .capton-content p !important{
     color:#000;
   }
