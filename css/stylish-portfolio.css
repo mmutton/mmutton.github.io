@@ -1,6 +1,4 @@
-/*!
-* Start Bootstrap - Stylish Portfolio v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/stylish-portfolio)
-* Copyright 2013-2017 Start Bootstrap
+/*
 * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
 */
 /*body,
@@ -127,7 +125,7 @@ h4 {
     font-size: 5.5rem; 
   } 
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
 .masthead{
 background-attachment:scroll;
 }
