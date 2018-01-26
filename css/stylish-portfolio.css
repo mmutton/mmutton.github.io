@@ -3,14 +3,16 @@
 * Copyright 2013-2017 Start Bootstrap
 * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
 */
-body,
-html {
+/*body,
+*/html {
   width: 100%;
   height: 100%; 
 }
 
 body {
   font-family: 'Source Sans Pro'; 
+  width: 100%;
+  height: 100%; 
 }
 
 .btn-xl {
@@ -30,9 +32,9 @@ body {
   font-size: 1rem;
   text-transform: uppercase; 
 }
-p.lead.mb-5 span #smaller {
+/*p.lead.mb-5 span #smaller {
   font-size: .3rem;
-}
+}*/
 
 h1,
 h2,
@@ -46,14 +48,30 @@ h1.mb-1 {
   color: #000;
   text-shadow: 0 0 1.0rem #03BF94;
 }
+h2 {
+  padding-bottom: 2em;
+}
+h2.mb-4{
+   text-shadow: 1px 3px 2px rgba(0,0,0,0.3);
+}
+/*div header text*/
 h2.mb-5 {
   font-weight: 700;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
+/*portfolio that spins*/
 h3.mb-5 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #fff;
-  text-shadow: 0 0 .75rem #03BF94;
+  text-shadow:  1px 1px 2px black, 0 0 1em #03BF94, 0 0 0.2em #03BF94;
+}
+/*text below the language icons*/
+h4 {
+   text-shadow: 1px 3px 2px rgba(0,0,0,0.3);
+
+}
+
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7); 
@@ -128,7 +146,7 @@ background-attachment:scroll;
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #790E8C;
+  background: #CC506B;
   border-left: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
@@ -218,9 +236,10 @@ background-attachment:scroll;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); 
 }
 
+
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/RainbowComputer.jpeg");  /*photo credit: seth schwiet*/
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/BlackWhiteComputer.jpeg");  /*photo credit: seth schwiet*/
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -233,11 +252,15 @@ background-attachment:scroll;
 }
 .callout h2 {
   color: rgb(255, 255, 255);
+/*  text-shadow: 1px 1px 2px black, 0 0 .1em black, 0 0 0.1em #d7e0ef;
   font-size: 3.5rem;
-  font-weight: 500;
+  font-weight: 400;
   display: block;
   max-width: 30rem; 
- 
+ */
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 .portfolio-item {
   display: block;
@@ -300,7 +323,7 @@ background-attachment:scroll;
   }
   .portfolio-item:hover .caption {
    /* background-color: rgba(92,6,0, 0.9);*/
-   background-color: rgba(36,94,214,0.8);
+   background-color: rgba(203, 80, 107, 0.8);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); 
   } 
@@ -310,7 +333,7 @@ background-attachment:scroll;
 
   #projects .portfolio-item:hover .caption{
    /* background-color: rgba(92,6,0, 0.9);*/
-   background-color: rgba(36, 94, 214, 0.8)
+   background-color: rgba(204, 80, 107, 0.8)
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); 
   } 
@@ -320,14 +343,14 @@ background-attachment:scroll;
   height: 1em;
   display: inline-block;
   vertical-align: -.125em;
-  fill: #3A69CA !important;
+  fill: #CC506B !important;
 }
 #bigB {
   width: 1em;
   height: 1em;
   display: inline-block;
   vertical-align: -.125em;
-  fill: #3A69CA !important;
+  fill: #CC506B !important;
 }
 footer.footer {
   padding-top: 5rem;
@@ -380,15 +403,17 @@ a:hover, a:focus, a:active {
   color: rgb(229,0,63);
 }
 .btn-light:hover {
-  background-color: #245ed6;
+  /*background-color: #245ed6;*/
+  background-color: #CC506B ;
 }
 
 .btn-dark {
   background-color: #000203 !important;
-  color: #fff !important;
+  color: #DAD6D3 !important;
 }
 .btn-dark:hover, /*.btn-dark:focus, */.btn-dark:active {
-  background-color: #245ed6 !important;
+  /*background-color: #245ed6 !important;*/
+  background-color: #fff !important;
   /*border-color: rgba(29,100,74,.25) !important;*/
   border-color: #f8f9fa; 
 }
@@ -412,13 +437,14 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #152C35 !important; 
 }
-/*span#streamOn.caption-content {
-  font-size: .5rem;
-  color: red;
-  text-shadow: 1px 1px #000-;
-}*/
 
-/*section#about.content-section.bg-light {
-  background-opacity: 0.5;
-  filter:alpha(opacity=x);*/
+section#about.content-section.bg-light {
+ height: 800px;
+ width: 100%;
+}
+svg {
+  color: #CC506B;
+}
+#github {
+  color: #CC506B;
 }
