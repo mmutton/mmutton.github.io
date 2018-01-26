@@ -6,7 +6,7 @@ This is a design portfolio website which includes links to select websites and p
  
 * Photo credit (background image): Christopher Gower
 * Photo credit (callout): seth schwiet
-* visit Molly Brooke's portfolio stie: https://mmutton.github.io
+* visit Molly Brooke's portfolio stie at: https://mmutton.github.io or at: https://mbrooke.com
 
 ![Portfoli](/img/MBrookeScreenshot_1.1.png)
 
