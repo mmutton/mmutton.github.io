@@ -12,9 +12,9 @@ This is a design portfolio website which includes links to select websites and p
 
 ## The Arctic project: 
 A single page educational site that explores life at the North Pole.
-In addition to a beautiful background image and soft text colors, Arctic includes a fun "why" button which takes the visitor to the reason for Fox's warm coat. Future issues to follow (kids education sites).
+In addition to a beautiful background image and soft text colors, Arctic includes a fun "why" button which takes the visitor to the reason for Fox's warm coat.
 
-Three dropdown menu items reveal links to web sources pertaining life in the Arctic region. Including a conservation site, the image sharing site, Unsplash.com for a look at additional arctic images, and finally NASA's take on climate change.
+Three dropdown menu items reveal links to web sources pertaining to life in the Arctic region. Including a conservation site, the image sharing site, Unsplash.com for a look at additional arctic images, and finally NASA's take on climate change.
 
 This project was created just for fun, but includes some interesting content and pretty pictures. And the cool "why" button.
 
