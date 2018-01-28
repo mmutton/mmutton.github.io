@@ -15,16 +15,30 @@ body {
   padding: 1.25rem 2.5rem; 
 }
 .content-section {
-  padding-top: 8.5rem;
+  padding-top: 6.5rem;
   padding-bottom: 5.5rem; 
+}
+#buttonz{
+  padding-top: 3rem;
+  padding-bottom: 5.5rem;
 }
 .content-section-heading h2 {
   font-size: 3rem; 
+  padding-top: 2rem;
 }
 .content-section-heading h3 {
   font-size: 1rem;
   text-transform: uppercase; 
 }
+#portfolio {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+#services {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
 h1,
 h2,
 h3,
@@ -39,6 +53,7 @@ h1.mb-1 {
 }
 h2 {
   padding-bottom: 2em;
+  padding-top: 3em;
 }
 h2.mb-4{
    text-shadow: 1px 3px 2px rgba(0,0,0,0.3);
@@ -211,7 +226,8 @@ background-attachment:scroll;
 }
 
 .callout {
-  padding: 15rem 0;
+  padding-top: 18rem;
+  padding-bottom: 24rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/BlackWhiteComputer.jpeg");  /*photo credit: seth schwiet*/
   background-attachment: fixed;
   background-position: center center;
