@@ -370,13 +370,7 @@ a:hover, a:focus, a:active {
   background-color: #AD03F7 !important;
   border-color: rgba(29,100,74,.25) !important; 
 }
-.btn-light:focus {
-  color: rgb(229,0,63);
-}
-.btn-light:hover {
-  /*background-color: #245ed6;*/
-  background-color: #CC506B ;
-}
+
 .btn-dark {
   background-color: #000203 !important;
   color: #DAD6D3 !important;
@@ -415,5 +409,49 @@ svg {
 #github {
   color: #CC506B;
 }
+
+.wrap {width:40px; margin:auto;  z-index:1;
+}
+
+.btn-light {
+
+  background-color:#fff!important;
+  width:50px;
+  height:80px;
+  border-radius:50%;
+  position: relative;
+  background: top center no-repeat; 
+  animation: spin 2s linear infinite;
+  /*Set our animation play state to paused initially */
+  animation-play-state: paused; 
+}
+
+.btn-light:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+}
+.btn-light:focus {
+  color: rgb(229,0,63);
+}
+.btn-light:hover {
+  /*background-color: #245ed6;*/
+  background-color: rgb(203, 80, 107)!important;
+}
+
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
+@-webkit-keyframes spin {
+  100% {transform: rotate(1turn); 
+}
+@-moz-keyframes spin  {
+  100% {transform: rotate(1turn); 
+}
+@-o-keyframes spin  {
+  100% {transform: rotate(1turn); 
+}
+
+
 
 
