@@ -410,7 +410,8 @@ svg {
   color: #CC506B;
 }
 
-.wrap {width:40px; margin:auto;  z-index:1;
+.wrap {/*width:40px;*/ 
+  margin:auto;  z-index:1;
 }
 
 .btn-light {
