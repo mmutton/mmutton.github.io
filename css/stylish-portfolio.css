@@ -269,6 +269,7 @@ background-attachment:scroll;
     max-width: none;
     margin: 0; 
 }
+
 .portfolio-item .caption {
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
     transition: clip-path 0.25s ease-out, background-color 0.7s;
@@ -308,6 +309,7 @@ background-attachment:scroll;
    background-color: rgba(204, 80, 107, 0.8)
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);  
+}
 }
 #squarespace {
   width: 1em;
