@@ -460,13 +460,13 @@ svg {
   100% {transform: rotate(1turn); }
 }
 @-webkit-keyframes spin {
-  100% {transform: rotate(1turn); 
+  100% {transform: rotate(1turn); }
 }
 @-moz-keyframes spin  {
-  100% {transform: rotate(1turn); 
+  100% {transform: rotate(1turn); }
 }
 @-o-keyframes spin  {
-  100% {transform: rotate(1turn); 
+  100% {transform: rotate(1turn); }
 }
 #mybutton{
   padding: 15px 25px;
@@ -475,16 +475,16 @@ svg {
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: #000;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
 }
 
-#mybutton:hover {background-color: #3e8e41}
+#mybutton:hover {background-color: pink}
 
 #mybutton:active {
-  background-color: #3e8e41;
+  background-color: rgb(203, 80, 107);
   box-shadow: 0 5px #666;
 transform: translateY(4px);
 }
