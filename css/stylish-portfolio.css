@@ -54,9 +54,18 @@ h1.mb-1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
+ /* text-shadow: 0 0 1.0rem #03BF94;*/
+    }
+@-webkit-keyframes hue {
+  from {-webkit-filter: hue-rotate(0deg);
   }
-  text-shadow: 0 0 1.0rem #03BF94;
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
 }
+
+
+
 h2 {
   padding-bottom: 2em;
   padding-top: 3em;
