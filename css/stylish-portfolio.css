@@ -455,10 +455,6 @@ svg {
   background-color: rgb(203, 80, 107)!important;
 }
 
-
-@keyframes spin {
-  100% {transform: rotate(1turn); }
-}
 @-webkit-keyframes spin {
   100% {transform: rotate(1turn); }
 }
@@ -468,6 +464,10 @@ svg {
 @-o-keyframes spin  {
   100% {transform: rotate(1turn); }
 }
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
+
 #mybutton{
   padding: 15px 25px;
   font-size: 24px;
