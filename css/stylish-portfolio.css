@@ -48,20 +48,16 @@ h6 {
   font-weight: 700; 
 }
 h1.mb-1 {
-  color: #03BF94;
+  color: #03bf94;
 
-}
-
-
-
-  /*color: #000;*/
-/*    color: #f35626;*/
-/*    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+  background-image: -webkit-linear-gradient(92deg, #0d7961, #67ffdc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-animation: hue 10s infinite linear;*/
+    /*-webkit-animation: hue 10s infinite linear;*/}
  /* text-shadow: 0 0 1.0rem #03BF94;*/
 /*    }
+
+
 @-webkit-keyframes hue {
   from {-webkit-filter: hue-rotate(0deg);
   }
@@ -89,7 +85,7 @@ h3.mb-5 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #fff;
-  text-shadow:  1px 1px 2px black, 0 0 1em #03BF94, 0 0 0.2em #03BF94;
+  text-shadow:  1px 2px 4px #000;
 }
 /*text below the language icons*/
 h4 {
