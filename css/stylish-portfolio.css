@@ -48,7 +48,13 @@ h6 {
   font-weight: 700; 
 }
 h1.mb-1 {
-  color: #000;
+  /*color: #000;*/
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+  }
   text-shadow: 0 0 1.0rem #03BF94;
 }
 h2 {
