@@ -238,7 +238,7 @@ background-attachment:scroll;
 }
 
 #callout {
-  padding-top: 18rem;
+  padding-top: 8rem;
   padding-bottom: 24rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/BlackWhiteComputer.jpeg");  /*photo credit: seth schwiet*/
   background-attachment: fixed;
