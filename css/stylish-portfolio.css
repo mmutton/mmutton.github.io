@@ -44,8 +44,7 @@ body {
 #skills {
   padding-top: 15rem;
   padding-bottom: 10rem;
-  height: 100%;
-  width: 100%;
+
 }
 
 h1,
@@ -261,8 +260,7 @@ background-attachment:scroll;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; 
-  height: 100%;
-  width: 100%;
+
 
 }
 @media screen and (max-width:800px){
@@ -451,11 +449,9 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #152C35 !important; 
 }
-section#about.content-section.bg-light {
- height: 100%;
- width: 100%;
 
-}
+
+
 #about{
   background-color: blue;
 }
