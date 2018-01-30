@@ -11,8 +11,15 @@ body {
   width: 100%;
   height: 100%; 
 }
+#workButton{
+  padding-top:20px;
+  margin-top: 90px;
+}
 .btn-xl {
   padding: 1.25rem 2.5rem; 
+}
+#skillsButton{
+  margin-top:90px;
 }
 .content-section {
   padding-top: 6.5rem;
@@ -30,13 +37,15 @@ body {
   font-size: 1rem;
   text-transform: uppercase; 
 }
-#portfolio {
+#work {
   padding-top: 2rem;
   padding-bottom: 3rem;
 }
-#services {
-  padding-top: 10rem;
+#skills {
+  padding-top: 15rem;
   padding-bottom: 10rem;
+  height: 100%;
+  width: 100%;
 }
 
 h1,
@@ -74,17 +83,24 @@ h2.mb-4{
 h2.mb-5 {
   font-weight: 700;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  padding-bottom: 20px;
 }
 /*portfolio that spins*/
 h3.mb-5 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #fff;
-  text-shadow:  1px 2px 4px #000;
+  text-shadow:  1px 2px 4px #594936;
 }
 /*text below the language icons*/
 h4 {
    text-shadow: 1px 3px 2px rgba(0,0,0,0.3);
+}
+
+p {
+  font-size: 1.5em;
+  color: #e2c2a5;
+  text-shadow: .5px .5px .5px rgba(0,0,0,0.3);
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7); 
@@ -234,17 +250,20 @@ background-attachment:scroll;
   display: block;
   line-height: 7.5rem;
   font-size: 2.75rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3); 
 }
 
 #callout {
   padding-top: 8rem;
-  padding-bottom: 24rem;
+  padding-bottom: 10rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/BlackWhiteComputer.jpeg");  /*photo credit: seth schwiet*/
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; 
+  height: 100%;
+  width: 100%;
+
 }
 @media screen and (max-width:800px){
 #callout{
@@ -253,16 +272,17 @@ background-attachment:scroll;
 }
 #callout h2 {
   color: rgb(255, 255, 255);
-/*  text-shadow: 1px 1px 2px black, 0 0 .1em black, 0 0 0.1em #d7e0ef;
+/*  text-shadow: 1px 1px 2px black, 0 0 .1em black, 0 0 0.1em      #d7e0ef;
   font-size: 3.5rem;
   font-weight: 400;
   display: block;
-  max-width: 30rem; 
- */
+  max-width: 30rem; */
   font-size: 2rem;
   font-weight: 700;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
+
+
 .portfolio-item {
   display: block;
   position: relative;
@@ -329,7 +349,10 @@ background-attachment:scroll;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem); 
 } 
-#projects .portfolio-item .capton-content p {
+#projects{
+  padding-top: 10px;
+}
+#projects .portfolio-item .caption-content p {
     color:#000;
 }
 #projects .portfolio-item:hover .caption{
@@ -338,6 +361,7 @@ background-attachment:scroll;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);  
 }
+/*bootstrap and squarespace icons*/
 }
 #squarespace {
   width: 1em;
@@ -387,8 +411,8 @@ a:hover, a:focus, a:active {
   background-color: #000203 !important;
   border-color: #1D3D4A !important;
 }
-.btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(75,65,79,.5);
+.btn-primary:focus, .btn-primary:active {
+  box-shadow: 0 0 0 0.2rem rgba(75,65,79,.5)!important;
 }
 .btn-secondary {
   background-color: #ecb807 !important;
@@ -428,8 +452,12 @@ a:hover, a:focus, a:active {
   color: #152C35 !important; 
 }
 section#about.content-section.bg-light {
- height: 800px;
+ height: 100%;
  width: 100%;
+
+}
+#about{
+  background-color: blue;
 }
 svg {
   color: #CC506B;
@@ -442,27 +470,33 @@ svg {
   margin:auto;  z-index:1;
 }
 
-.btn-light {
+#angryDot {
 
   background-color:#fff!important;
-  width:50px;
-  height:80px;
+  width:80px;
+  height:83px;
+  padding: 38px 25px 25px 38px;
   border-radius:50%;
+  margin-right: 20px;
   position: relative;
   background: top center no-repeat; 
   animation: spin 1s linear infinite;
+  margin-left: 10px;
   /*Set our animation play state to paused initially */
   animation-play-state: paused; 
 }
 
-.btn-light:hover {
+#angryDot:hover {
   /* Toggle our animation play state to running when we are hovering over our sticker */
   animation-play-state: running;
 }
-.btn-light:focus {
-  color: rgb(229,0,63);
+#angryDot:focus {
+ outline: none;
 }
-.btn-light:hover {
+#angryDot :active{
+  background-color: green;
+}
+#angryDot:hover {
   /*background-color: #245ed6;*/
   background-color: rgb(203, 80, 107)!important;
 }
@@ -490,15 +524,56 @@ svg {
   background-color: #000;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 2px 2px rgb(119, 103, 88);
 }
 
-#mybutton:hover {background-color: pink}
+#mybutton:hover {
+ background-color: pink
+}
 
 #mybutton:active {
-  background-color: rgb(203, 80, 107);
+  background-color: blue;/*rgb(203, 80, 107);*/
   box-shadow: 0 5px #666;
-transform: translateY(4px);
+  transform: translateY(4px);
 }
+#mybutton:focus {
+  background-color: pink;
+}
+#mybutton:active{
+  box-shadow: 0 2px 2px #999;
+}
+
+#yourbutton{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px 2px rgb(119, 103, 88);
+}
+
+#yourbutton:hover {
+ background-color: pink
+}
+
+#yourbutton:active {
+  background-color: blue;/*rgb(203, 80, 107);*/
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#yourbutton:focus {
+  background-color: pink;
+}
+#yourbutton:active{
+  box-shadow: 0 2px 2px #999;
+}
+#hi{
+  top: 20%;
+}
+
 
 
