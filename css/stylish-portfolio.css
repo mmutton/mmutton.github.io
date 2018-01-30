@@ -12,14 +12,16 @@ body {
   height: 100%; 
 }
 #workButton{
-  padding-top:20px;
+
   margin-top: 90px;
+  margin-left: 10px;
 }
 .btn-xl {
   padding: 1.25rem 2.5rem; 
 }
 #skillsButton{
   margin-top:90px;
+  margin-right: 10px;
 }
 .content-section {
   padding-top: 6.5rem;
@@ -521,6 +523,7 @@ svg {
   border: none;
   border-radius: 15px;
   box-shadow: 0 2px 2px rgb(119, 103, 88);
+
 }
 
 #mybutton:hover {
