@@ -12,7 +12,6 @@ body {
   height: 100%; 
 }
 #workButton{
-
   margin-top: 90px;
   margin-left: 10px;
 }
@@ -45,7 +44,7 @@ body {
 }
 #skills {
   padding-top: 15rem;
-  padding-bottom: 10rem;
+  padding-bottom: 15rem;
 
 }
 
@@ -256,7 +255,7 @@ background-attachment:scroll;
 
 #callout {
   padding-top: 8rem;
-  padding-bottom: 10rem;
+  padding-bottom: 25rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/BlackWhiteComputer.jpeg");  /*photo credit: seth schwiet*/
   background-attachment: fixed;
   background-position: center center;
@@ -456,6 +455,7 @@ a:hover, a:focus, a:active {
 
 #about{
   background-color: blue;
+  padding-bottom: 10rem;
 }
 svg {
   color: #CC506B;
