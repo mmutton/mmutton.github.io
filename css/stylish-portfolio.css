@@ -573,6 +573,10 @@ svg {
 #hi{
   top: 20%;
 }
-
+#flowerIcon {
+  margin:0 auto;
+  height: 40px;
+  display:block;
+}
 
 
