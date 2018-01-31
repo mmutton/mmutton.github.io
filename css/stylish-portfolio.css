@@ -456,6 +456,7 @@ a:hover, a:focus, a:active {
 #about{
   background-color: blue;
   padding-bottom: 10rem;
+  box-shadow: 0 2px 2px #999!important;
 }
 svg {
   color: #CC506B;
@@ -572,11 +573,12 @@ svg {
 }
 #hi{
   top: 20%;
+  color: #fff!important;
   background-color: #8d9692!important;
-  padding-top:15px;
-  padding-bottom: 15px;
-  padding-left:20px;
-  padding-right:20px;
+  padding-top:18px;
+  padding-bottom: 18px;
+  padding-left:22px;
+  padding-right:22px;
   border-color:#cedbd5;
 }
 #hi:focus, #hi:hover{
@@ -592,5 +594,5 @@ svg {
   font-size: 1.5rem;
 }
 #message2{
-  text-shadow:0 2px 2px #000!important;
+  text-shadow:0 1.5px 1.5px #000!important;
 }
