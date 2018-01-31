@@ -486,19 +486,17 @@ svg {
 }
 
 #angryDot:hover {
+  background-color:#cb506b!important;
   /* Toggle our animation play state to running when we are hovering over our sticker */
   animation-play-state: running;
 }
 #angryDot:focus {
  outline: none;
 }
-#angryDot :active{
-  background-color: green;
+#angryDot:active{
+ background-color:#cb506b!important; 
 }
-#angryDot:hover {
-  /*background-color: #245ed6;*/
-  background-color: rgb(203, 80, 107)!important;
-}
+
 
 @-webkit-keyframes spin {
   100% {transform: rotate(1turn); }
@@ -582,7 +580,9 @@ svg {
   border-color:#cedbd5;
 }
 #hi:focus, #hi:hover{
-  box-shadow: 0 2px 2px #fff!important;
+  box-shadow: 0 2px 2px #000!important;
+ /* background-color: #494742!important;*/
+  background-color: #18B580!important;
 }
 #flowerIcon {
   margin:0 auto;
@@ -594,5 +594,9 @@ svg {
   font-size: 1.5rem;
 }
 #message2{
-  text-shadow:0 1.5px 1.5px #000!important;
+  font-family: 'Questrial', sans-serif;
+  text-shadow: 0 2px 2px #000!important;
+  color: #18B580!important;
+  font-size: 2.5rem!important;
+
 }
