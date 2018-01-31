@@ -31,7 +31,7 @@ body {
   padding-bottom: 10rem;
 }
 .content-section-heading h2 {
-  font-size: 3rem; 
+  font-size: 2rem; 
   padding-top: 2rem;
 }
 .content-section-heading h3 {
@@ -83,7 +83,7 @@ h2.mb-4{
 h2.mb-5 {
   font-weight: 700;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  padding-bottom: 20px;
+  padding-bottom: 7rem;
 }
 /*portfolio that spins*/
 h3.mb-5 {
@@ -256,7 +256,7 @@ background-attachment:scroll;
 #callout {
   padding-top: 8rem;
   padding-bottom: 25rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/BlackWhiteComputer.jpeg");  /*photo credit: seth schwiet*/
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/greenLaneWhiteOverlay.png");  /*photo credit: seth schwiet*/
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -579,4 +579,6 @@ svg {
   display:block;
 }
 
-
+.aboutContent{
+  font-size: 1.5rem;
+}
