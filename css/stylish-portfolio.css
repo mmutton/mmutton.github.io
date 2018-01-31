@@ -572,6 +572,15 @@ svg {
 }
 #hi{
   top: 20%;
+  background-color: #8d9692!important;
+  padding-top:15px;
+  padding-bottom: 15px;
+  padding-left:20px;
+  padding-right:20px;
+  border-color:#cedbd5;
+}
+#hi:focus, #hi:hover{
+  box-shadow: 0 2px 2px #fff!important;
 }
 #flowerIcon {
   margin:0 auto;
@@ -581,4 +590,7 @@ svg {
 
 .aboutContent{
   font-size: 1.5rem;
+}
+#message2{
+  text-shadow:0 2px 2px #000!important;
 }
