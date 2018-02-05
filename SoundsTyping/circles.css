@@ -1,0 +1,42 @@
+body , html{
+	height: 100%!important;
+	margin: 0!important;
+	border: none!important;
+}
+canvas {
+	background-image: url("Lawrencium.jpg");
+	width: 100%;
+	height: 100%;
+	border-bottom:none;
+}
+
+/*
+canvas {
+	background: linear-gradient(270deg, #0609b9, #dedee3);
+	background-size: 400% 400%;
+	width: 100%;
+	height: 100%!important;
+	margin: 0;
+	position: absolute;
+
+	-webkit-animation: AnimationName 13s ease infinite;
+	-moz-animation: AnimationName 13s ease infinite;
+	animation: AnimationName 13s ease infinite;
+
+	@-webkit-keyframes AnimationName {
+	    0%{background-position:0% 9%}
+	    50%{background-position:100% 92%}
+	    100%{background-position:0% 9%}
+	}
+	@-moz-keyframes AnimationName {
+	    0%{background-position:0% 9%}
+	    50%{background-position:100% 92%}
+	    100%{background-position:0% 9%}
+	}
+	@keyframes AnimationName { 
+	    0%{background-position:0% 9%}
+	    50%{background-position:100% 92%}
+	    100%{background-position:0% 9%}
+	}
+}*/
+

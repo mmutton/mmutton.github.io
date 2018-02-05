@@ -1,0 +1,109 @@
+body {
+font-family: 'Sue Ellen Francisco', cursive;
+font-family: 'Nothing You Could Do', cursive;
+  background: -webkit-linear-gradient(90deg, #42f45c 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #00c9ff 10%, #92fe9d 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #00c9ff 10%, #92fe9d 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #00c9ff 10%, #92fe9d 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #00c9ff 10%, #92fe9d 90%); /* W3C */
+}
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	background-color: #5b5d60;
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	padding: 15px 10px;
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+	text-transform: uppercase;
+	font-size: 1.8em;
+	font-weight: normal;
+}
+.fa-plus {
+	float: left;
+}
+li {
+	font-size: 1.4em;
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #5b5d60;
+}
+li:nth-child(2n){
+	background: #f7f7f7;
+}
+
+span { 
+	color: #5b5d60;
+	background: #fff;
+	height: 40px;
+	width: 0;
+	display: inline-block;
+	margin-right: 20px;
+	text-align: center;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+	background:#42f45c; 
+}
+
+input {
+	font-size: 1.3em;
+	background-color: #f7f7f7;
+	width: 100%;
+	display: inline-block;
+	cursor: auto;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	color: #42d9f4;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+input:focus{
+	background: #fff;
+	border: 2px solid gray;
+	outline: none;
+}
+#container {
+	width: 360px;
+	margin: 100px auto;
+	background: #f7f7f7;
+	border-radius: 5px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+/*placeholder*/
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #b4bac4;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:   #b4bac4;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #b4bac4;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #b4bac4;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #b4bac4;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #b4bac4;
+}
+
