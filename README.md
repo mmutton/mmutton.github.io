@@ -22,3 +22,8 @@ This project was created just for fun, but includes some interesting content and
 * visit the Arctic: https://mmutton.github.io/Arctic%20Fox/index.html 
 
 ![Arctic](/img/ArcticFoxScreenshot.png)
+
+## SoundBalls
+Type on the keyboard to relase sounds and circle animations.
+
+![ ](/img/SoundsTypingScreenshotResized.png)
