@@ -11,6 +11,7 @@ body {
   width: 100%;
   height: 100%; 
 }
+
 #workButton{
   margin-top: 90px;
   margin-left: 10px;
@@ -101,6 +102,14 @@ p {
   font-size: 1.5em;
   color: #e2c2a5;
   text-shadow: .5px .5px .5px rgba(0,0,0,0.3);
+}
+/*h2.streamOn {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  height: 15px;
+  width: 70px;
+  border: solid 1px black;*/
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7); 
