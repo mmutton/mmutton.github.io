@@ -17,7 +17,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 body.pageTwo {
-	background-image: url(foxOnWhite.png);/*("https://images.unsplash.com/photo-1516591140328-8925e3317673?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=162c5f44983c44761e02f961d599175a&auto=format&fit=crop&w=1567&q=80");*/
+	background-image: url(foxOnWhite.jpg);/*("https://images.unsplash.com/photo-1516591140328-8925e3317673?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=162c5f44983c44761e02f961d599175a&auto=format&fit=crop&w=1567&q=80");*/
 	height:100%;
 }
 /*image credit: Jonatan Pie*/
