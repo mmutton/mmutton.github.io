@@ -24,5 +24,7 @@ This project was created just for fun, but includes some interesting content and
 ![Arctic](/img/ArcticFoxScreenshot.png)
 
 ## SoundBalls
-Javascript project:   Typing on the keyboard releases sounds which coincide with colorful circle animations.  JavaScript libraries: howler.js and Paper.js.
+This is an animation and sound project:  Typing on the keyboard creates sounds which coincide with colorful circle animations.  Created using the JavaScript libraries: howler.js and Paper.js.
+* Experiment with SoundBalls at:  https://mmutton.github.io/SoundsTyping/circles.html
+
 ![ ](/img/SoundsTypingScreenshotResized.png)
