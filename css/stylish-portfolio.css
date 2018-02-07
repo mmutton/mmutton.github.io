@@ -74,7 +74,7 @@ h1.mb-1 {
   }
 }*/
 h2 {
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
   padding-top: 3em;
 }
 h2.mb-4{
@@ -82,9 +82,12 @@ h2.mb-4{
 }
 /*div header text*/
 h2.mb-5 {
+  font-size: 3em;
   font-weight: 700;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-  padding-bottom: 7rem;
+  text-shadow: 1px 2px 1.5px rgba(0,0,0,0.3);
+  margin-bottom: 0!important;
+
+/*  padding-bottom: 7rem;*/
 }
 /*portfolio that spins*/
 h3.mb-5 {
@@ -92,6 +95,7 @@ h3.mb-5 {
   font-weight: 300;
   color: #fff;
   text-shadow:  1px 2px 4px #594936;
+
 }
 /*text below the language icons*/
 h4 {
@@ -607,5 +611,10 @@ svg {
   text-shadow: 0 2px 2px #000!important;
   color: #18B580!important;
   font-size: 2.5rem!important;
-
+}
+#websites{
+  color:#cb506b!important ;
+}
+#other{
+  color: #cb506b!important ;
 }
