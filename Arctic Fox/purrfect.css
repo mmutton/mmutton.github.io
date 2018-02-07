@@ -16,6 +16,9 @@ body {
 	background-position: center;
 	font-family: 'Raleway', sans-serif;
 }
+body.pageTwo {
+	background-image: url(foxOnWhite.png);/*("https://images.unsplash.com/photo-1516591140328-8925e3317673?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=162c5f44983c44761e02f961d599175a&auto=format&fit=crop&w=1567&q=80");*/
+}
 /*image credit: Jonatan Pie*/
 h1 {
 	font-weight: : 700;
@@ -148,4 +151,114 @@ hr {
 .btn-1e:active:after {
 	height: 400%;
 	opacity: 1;
+}
+.Grid {
+  display: flex;
+}
+
+.Grid-cell {
+
+  flex: 1;
+  padding-left: 2%;
+  padding-top: 20%;
+  padding-right: 2%;
+}
+h3.aboutSite{
+	font-size: 1.5em;
+}
+h1.fun {
+	font-size: 2em;
+}
+p.hope {
+	font-size: 1em;
+}
+
+.Grid--gutters {
+  margin: -1em 0 0 -1em;
+}
+.Grid--gutters > .Grid-cell {
+  padding: 1em 0 0 1em;
+}
+
+/* Alignment per row */
+/*.Grid--top {
+  align-items: flex-start;
+}*/
+.Grid--bottom {
+  align-items: flex-end;
+}
+.Grid--center {
+  align-items: center;
+}
+
+/* Alignment per cell */
+.Grid-cell--top {
+  align-self: flex-start;
+}
+.Grid-cell--bottom {
+  align-self: flex-end;
+}
+.Grid-cell--center {
+  align-self: center;
+}
+
+
+
+
+/* Base classes for all media */
+.Grid--fit > .Grid-cell {
+  flex: 1;
+}
+.Grid--full > .Grid-cell {
+  flex: 0 0 100%;
+}
+.Grid--1of2 > .Grid-cell {
+  flex: 0 0 50%
+}
+.Grid--1of3 > .Grid-cell {
+  flex: 0 0 33.3333%
+}
+.Grid--1of4 > .Grid-cell {
+  flex: 0 0 25%
+}
+
+/* Small to medium screens */
+@media (min-width: 24em) {
+  .small-Grid--fit > .Grid-cell {
+    flex: 1;
+  }
+  .small-Grid--full > .Grid-cell {
+    flex: 0 0 100%;
+  }
+  .small-Grid--1of2 > .Grid-cell {
+    flex: 0 0 50%
+  }
+  .small-Grid--1of3 > .Grid-cell {
+    flex: 0 0 33.3333%
+  }
+  .small-Grid--1of4 > .Grid-cell {
+    flex: 0 0 25%
+  }
+}
+
+/* Large screens */
+@media (min-width: 48em) {
+  .large-Grid--fit > .Grid-cell {
+    flex: 1;
+  }
+  .large-Grid--full > .Grid-cell {
+    flex: 0 0 100%;
+  }
+  .large-Grid--1of2 > .Grid-cell {
+    flex: 0 0 50%
+  }
+  .large-Grid--1of3 > .Grid-cell {
+    flex: 0 0 33.3333%
+  }
+  .large-Grid--1of4 > .Grid-cell {
+    flex: 0 0 25%
+  }
+}
+.unsplash{
+	color: #467FDB!important;
 }
