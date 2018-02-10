@@ -13,18 +13,18 @@ body {
 }
 
 #workButton{
-  margin-top: 90px;
+  margin-top: 40px;
   margin-left: 10px;
 }
 .btn-xl {
   padding: 1.25rem 2.5rem; 
 }
 #skillsButton{
-  margin-top:90px;
+  margin-top:40px;
   margin-right: 10px;
 }
 .content-section {
-  padding-top: 6.5rem;
+  padding-top: 2.5rem;
   padding-bottom: 5.5rem; 
 }
 #buttonz{
@@ -73,6 +73,7 @@ h1.mb-1 {
     -webkit-filter: hue-rotate(-360deg);
   }
 }*/
+
 h2 {
   padding-bottom: 1.5em;
   padding-top: 3em;
@@ -103,18 +104,17 @@ h4 {
 }
 
 p {
-  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
   color: #e2c2a5;
   text-shadow: .5px .5px .5px rgba(0,0,0,0.3);
 }
-/*h2.streamOn {
-  text-align: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 1.2em;
-  height: 15px;
-  width: 70px;
-  border: solid 1px black;*/
+h1.team{
+ font-family: 'Lato', sans-serif;
+
 }
+
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7); 
 }
@@ -604,7 +604,11 @@ svg {
 }
 
 .aboutContent{
-  font-size: 1.5rem;
+font-family: 'Lato', sans-serif;
+
+  font-size: 1.3rem;
+  padding-left: 28%;
+  padding-right: 28%;
 }
 #message2{
   font-family: 'Questrial', sans-serif;
