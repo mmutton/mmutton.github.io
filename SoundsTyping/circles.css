@@ -27,6 +27,29 @@ h1 {
 	font-weight: : 700;
 }
 
+
+
+
+/*	-webkit-animation: AnimationName 13s ease infinite;
+	-moz-animation: AnimationName 13s ease infinite;
+	animation: AnimationName 13s ease infinite;
+
+	@-webkit-keyframes AnimationName {
+	    0%{background-position:0% 9%}
+	    50%{background-position:100% 92%}
+	    100%{background-position:0% 9%}
+	}
+	@-moz-keyframes AnimationName {
+	    0%{background-position:0% 9%}
+	    50%{background-position:100% 92%}
+	    100%{background-position:0% 9%}
+	}
+	@keyframes AnimationName { 
+	    0%{background-position:0% 9%}
+	    50%{background-position:100% 92%}
+	    100%{background-position:0% 9%}
+	}*/
+
  .navbar-light .navbar-brand {
 	color: red;
 	font-family: 'Montserrat', sans-serif;
