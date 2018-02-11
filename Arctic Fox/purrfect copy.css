@@ -3,41 +3,93 @@
 html {
 	height:100%;
 }
-
-	
-
 #content {
 	text-align: center;
-	padding-top: 30%;
-	padding-bottom: 0;
-
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px #c9d8f2,
+							 0px 8px 8px #fff;
 }
 body {
 	color: #afc1e0;
-	background-image: url(soundsTypingScreenshot.jpg);
+	background-image: url(https://images.unsplash.com/photo-1484312152213-d713e8b7c053?auto=format&fit=crop&w=2700&q=80);
 	background-size: cover;
 	background-position: center;
-/*	font-family: 'Raleway', sans-serif;*/
-	font-family: 'Comfortaa', cursive;
-	height: 100%;
-	background-repeat: no-repeat;
+	font-family: 'Raleway', sans-serif;
 }
-
+body.pageTwo {
+	background-image: url(foxOnWhite.jpg);/*("https://images.unsplash.com/photo-1516591140328-8925e3317673?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=162c5f44983c44761e02f961d599175a&auto=format&fit=crop&w=1567&q=80");*/
+	height:100%;
+}
+/*image credit: Jonatan Pie*/
 h1 {
 	font-weight: : 700;
 }
-
+hr {
+	width: 300px;
+	border-top: 1px solid #c9d8f2;
+	/*border-bottom: 1px solid rgba(0,0,0,0.2)*/
+}
  .navbar-light .navbar-brand {
 	color: red;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2em;
 }
-
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #afc1e0;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #afc1e0;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #5978d6;
+}
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
 	color: #5978d6;
 }
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	background-color: #afc1e0;
+}
+.dropdown-item {
+	color:#5978d6;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+	background-color: #88A8DB;
+	color:#5978d6;
+}
+.navbar-light .navbar-toggler {
+	border: none;
+}
+.navbar-light .navbar-toggler:focus {
+	outline: 0;
+}
 
 
+.navbar-light .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=afc1e0');
+}
+.navbar-light .navbar-toggler-icon:hover {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=5978d6');
+}
+
+.btn {
+	border: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 15px 50px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
 
 .btn:after {
 	content: '';
@@ -48,35 +100,38 @@ h1 {
 	transition: all 0.3s;
 }
 
-
+/* Pseudo elements for icons */
+.btn:before,
+.icon-heart:after,
+.icon-star:after,
+.icon-plus:after,
+.icon-file:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
 
 .btn-1 {
-
-	border: 3px solid #afc1e0;
-	color: #afc1e0;
-	border-radius: 50%;
+	border: 3px solid #fff;
+	color: #fff;
 }
 
 .btn-1e {
-	text-transform: uppercase;
-	display: inline-block;
-	text-align: center;
-	height: 50px;
-	width: 90px;
-	margin: 50px;
-	padding-top: 10px;
-	color: #afc1e0;
 	overflow: hidden;
-	text-shadow: none;
 }
 
 .btn-1e:after {
-	border-radius: 50%;
 	width: 100%;
 	height: 0;
 	top: 50%;
 	left: 50%;
-	background: #FFD44F;
+	background: #fff;
 	opacity: 0;
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
 	-moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
@@ -109,8 +164,8 @@ h1 {
   padding-top: 20%;
   padding-right: 2%;
 }
-h3 {
-	font-size: 1.2em;
+h3.aboutSite{
+	font-size: 1.5em;
 }
 h1.fun {
 
@@ -205,8 +260,22 @@ p.hope {
   .large-Grid--1of4 > .Grid-cell {
     flex: 0 0 25%
   }
+}
+.unsplash{
+	color: #5978d6!important;
+}
+.row-fluid{
+	width: 100%
+	height: 400px
+	padding-left: 67%;
+	padding-right: 15px;
+	padding-top: 20%
 
+}
 
+.span2 {
+	margin-left: 70%;
+	color: #788ac1!important;
+	text-shadow: 2px -1px 10px #c0cdf3;
 
-
-
+}

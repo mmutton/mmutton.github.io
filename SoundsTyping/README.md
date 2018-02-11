@@ -1,6 +1,6 @@
 # SoundsTyping
 
-Typing on the keyboard releases sounds which coincide with colorful circle animation.  Javascript libraries:  howler.js and Paper.js.
+Typing on the keyboard releases synthesized music sounds which coincide with colorful circle animation.  Javascript libraries:  howlerjs. and Paper.js.
 
 
-![ ](images/SoundsTypingScreenshot.jpg)
+![](images/SoundsTypingScreenshot.jpg)
