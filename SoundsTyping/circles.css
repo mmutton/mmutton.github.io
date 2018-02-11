@@ -2,6 +2,7 @@ body , html{
 	height: 100%!important;
 	margin: 0!important;
 	border: none!important;
+	overflow: hidden;
 }
 canvas {
 	background-image: url("Lawrencium.jpg");
