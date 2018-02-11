@@ -7,13 +7,17 @@ html {
   height: 100%; 
 }
 body {
-  font-family: 'Source Sans Pro'; 
+   font-family: 'Lato', sans-serif;
+
+/*font-family: 'Source Sans Pro'; */
   width: 100%;
   height: 100%; 
 }
 
 #workButton{
   margin-top: 40px;
+
+
   margin-left: 10px;
 }
 .btn-xl {
@@ -106,14 +110,13 @@ h4 {
 p {
   font-family: 'Lato', sans-serif;
   font-size: 1.3em;
-  color: #e2c2a5;
-  text-shadow: .5px .5px .5px rgba(0,0,0,0.3);
+  color: #fcca92;
+  text-shadow: .5px .5px .5px rgba(0,0,0,0.9);
 }
 h1.team{
  font-family: 'Lato', sans-serif;
-
+ font-size: 2.0em;
 }
-
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); 
@@ -362,7 +365,7 @@ background-attachment:scroll;
     clip-path: inset(2rem); 
 } 
 #projects{
-  padding-top: 10px;
+  padding-top: 2em;
 }
 #projects .portfolio-item .caption-content p {
     color:#000;
@@ -605,20 +608,27 @@ svg {
 
 .aboutContent{
 font-family: 'Lato', sans-serif;
+/*font-family: 'Delius', cursive;*/
 
   font-size: 1.3rem;
-  padding-left: 28%;
-  padding-right: 28%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 #message2{
-  font-family: 'Questrial', sans-serif;
+font-family: 'Delius', cursive;
   text-shadow: 0 2px 2px #000!important;
-  color: #18B580!important;
+  color: #7eeab2!important;
   font-size: 2.5rem!important;
 }
 #websites{
   color:#cb506b!important ;
+  padding-bottom: 40px;
 }
-#other{
+#otherProjects{
   color: #cb506b!important ;
+  padding-bottom: 40px;
+}
+#Copyright{
+  color:#211e1c;
+  text-shadow: none;
 }
