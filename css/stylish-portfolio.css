@@ -527,7 +527,7 @@ svg {
 }
 #angryDot:active{
  background-color:#cb506b!important; 
- border: none;
+ border-color: transparent;
 }
 
 
