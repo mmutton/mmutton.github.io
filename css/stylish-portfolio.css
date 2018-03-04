@@ -48,7 +48,7 @@ h2.mb-5 {
 }
 
 #tools{
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 700;
   /* text-shadow: 1px 1px 0 rgba(62, 57, 68, 0.5);*/
   text-shadow: none;
@@ -78,6 +78,8 @@ p {
   color: rgba(62, 57, 68, 0.8);
 }
 h1.team{
+
+ font-weight: 700;
  font-family: 'Lato', sans-serif;
  font-size: 2.0em;
  color: rgba(52, 58, 64, 0.8);
@@ -155,11 +157,12 @@ background-attachment:scroll;
   vertical-align:-0.25em; 
 }
 #silly{
-color: #03BF94;
+color: rgba(52, 58, 64, 0.7);
 text-shadow: 1px 1px 0 rgba(52, 58, 64, 0.5);
 font-family: 'Lato', sans-serif;
 font-size: 1.5em;
 padding-top: 1.5em;
+font-weight: normal;
 }
 
 
@@ -520,9 +523,9 @@ a:hover, a:focus, a:active {
 
 
 #about{
-  background-color: blue;
+  background-color: #FFF;
   padding-bottom: 30%;
-  padding-top:20%;
+  padding-top:12%;
   box-shadow: 0 2px 2px #999!important;
 }
 svg {
@@ -589,7 +592,7 @@ padding-top: 15%;
 }
 
 #angryDot:hover {
-  color: #350d63;
+  color:#d84b60;
   background-color: #03BF94!important;
   /* Toggle our animation play state to running when we are hovering over our sticker */
   animation-play-state: running;
@@ -670,24 +673,16 @@ padding-top: 15%;
 }
 
 .aboutContent{
-font-family: 'Lato', sans-serif;
-/*font-family: 'Delius', cursive;*/
+  font-family: 'Lato', sans-serif;
+  font-size: 1.8rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
-  font-size: 1.3rem;
-  padding-left: 15%;
-  padding-right: 15%;
-}
-#message2{
-/*font-family: 'Delius', cursive;*/
-font-family: 'Kaushan Script', cursive;
-  text-shadow: 0 2px 2px #000!important;
-  /*color: #7eeab2!important;*/
-  color: rgba(62, 57, 68, 0.8);
-  font-size: 2.5rem!important;
-}
 #websites{
   color: rgba(62, 57, 68, 0.8)!important ;
   padding-bottom: 40px;
+  padding-top: 100px;
 
 }
 #otherProjects{
@@ -871,4 +866,7 @@ a:hover .subtitle {
 }
 .jquery-background-video-pauseplay.pause:after {
   left: 10px;
+}
+.element-with-video-bg {
+  background-image: url(img/RidePoster.jpg);
 }
