@@ -186,6 +186,7 @@ text-shadow: none;
   padding-bottom: 3rem;
 }
 #skills {
+background-image: url("../img/hammersWhiteOver.jpg");
   padding-top: 15rem;
   padding-bottom: 15rem;
 }
@@ -314,7 +315,8 @@ font-family: 'Hind', sans-serif;*/
 #callout {
   padding-top: 8rem;
   padding-bottom: 25rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/greenLaneWhiteOverlay.png");  /*photo credit: seth schwiet*/
+/*  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/greenLaneWhiteOverlay.png"); */
+   /*photo credit: seth schwiet*/
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -499,11 +501,7 @@ a:hover, a:focus, a:active {
   font-weight: 700; 
   border-radius: 75px;
 }
-.bg-primary {
-  background-image: url("../img/hammersWhiteOver.jpg");
 
-  /*background-color: #03BF94 !important; */
-}
 .text-primary {
   color: #1D809F !important; 
 }
@@ -692,4 +690,21 @@ ul {
   list-style-type: none;
 }
 
-
+#videoDiv {
+  width: 100%; height: 360px; position: relative;
+}
+#videoBlock {
+  width: 100%; height: 100%;  display: flex;  justify-content: center; align-items: center;
+}
+#videoMessage {
+  width: 100%; height:100%; position: absolute; top: 0; left: 0;
+}
+#videoMessage *{
+  padding:0.4em; margin:0
+}
+#videoMessage {text-shadow: 2px 2px 2px #000000; color:white;z-index:99 }
+#videoMessage h1{font-size: 2em;color:#ffffff;text-align:center;}
+#videoMessage h2{font-size: 1.5em;color:#ffffff;text-align:center;}
+#videoMessage h3{font-size: 1.2em;color:#ffffff;text-align:center;}
+.videoClick {text-align:center}
+.videoClick a{color:white;background-color:rgba(241, 241, 241, 0.25);font-size: 1.7em;cursor:pointer;cursor:hand}
