@@ -19,6 +19,7 @@
 <!-- Custom CSS -->
   <link href="css/stylish-portfolio.css" rel="stylesheet">
 <!-- jQuery -->
+
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
 </head>
@@ -75,7 +76,7 @@
       <div class="row">
         <div class="col-lg-10 mx-auto">
           <h2 class="aboutContent">
-            I'm Molly.&nbsp; I'm a web developer focused on visual design. My goal is to create digital experiences that are simple and enjoyable.</h2>
+            I'm Molly.&nbsp; I'm a web developer focused on visual design. My goal is to create digital experiences that are simple, intuitive and enjoyable.</h2>
    
 <h1 class="team">The World Wide Web is beautiful!</h1><br>
        
@@ -154,7 +155,6 @@
 </div>
 
 </div>
-<div class="container">
 <!-- <div class="row" id="row2">
 
   <div class="col-lg-3 col-lg-offset-3 text-center">       
@@ -197,19 +197,13 @@
           <p class="text-faded mb-0">
           </p>
         </div>
-
-     
     </div>
-
     <div class="col-lg-5 corps">
+    </div> 
 
-    </div> -->
-
-</div>
-</div>
-
-
-  </div>
+</div>-->
+<!-- </div>
+</div> -->
   </section>
 
   <!-- Portfolio -->
@@ -220,10 +214,10 @@
         
 
 <!--     projects -->
-
-  <section class="content-section" id="projects">
+<!-- 
+  <section class="content-section" id="projects"> -->
     
-     <div class="container">
+     <div class="container" id="projects">
       <div class="content-section-heading text-center">
         <!-- <h3 class="text-secondary mb-0">Portfolio</h3> -->
         <h2 class="mb-5" id="otherProjects">HTML, CSS and Javascript Projects</h2>
@@ -347,48 +341,33 @@
 
  </div>
      <!--  <h2 class="streamOn">StreamOn - an ASP.NET MVC .NET Core Application.</h2> -->
-    </div>
-  </section>
 </section>
 <!-- Callout Contact Section-->
-<section class="content-section" id="callout">
-  <div id="videoDiv"> 
-<div id="videoBlock">   
-<video preload="preload"  id="video" autoplay="autoplay" loop="loop">
-<source src="video/Ride.mp4" type="video/mp4"></source>
-</video> 
-<div id="videoMessage">
-
-<p class="videoClick" >
+<div class="element-with-video-bg jquery-background-video-wrapper" id="callout">
+  <div class="element-with-video-bg jquery-background-video-wrapper">
+  <video class="my-background-video jquery-background-video" loop autoplay muted poster="img/RidePoster.jpg">
+    <source src="video/RideQ1.1.mp4" type="video/mp4">
+    <source src="video/RideQ1.1.webm" type="video/webm">
+  </video>
+      <div class="video-overlay"></div>
+    <div class="page-width">
+        <div class="video-hero--content">
   <a class="btn btn-dark btn-xl js-scroll-trigger" id="hi" target="blank" href="https://808webdesign.com/contact/">Contact Molly</a>
-</p> 
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-<!--     <div class="container text-center">
-      <h2 class="mx-auto mb-5" id="message2">If you have questions or a project in mind, I'd love to hear from you!</h2>
-
-         <a class="btn btn-dark btn-xl js-scroll-trigger" id="hi" target="blank" href="https://808webdesign.com/contact/">Contact Molly</a> -->
-    
+        </div>
     </div>
-</section>
+</div>
+
+ </div>
+</div>
 <!-- silly button business -->
 <section class="content-section bg-light" id="buttonz">
       <div class="container text-center">
-        <h2 class="mb-4" id="silly">Silly Buttons...</h2>
         <div class="wrap">
         <button  class="button animated jello" id="yourbutton"><(; --_--)></button> 
         <button class="button" id="angryDot">o_O</button>
 
-        </div>
+      </div>
+        <h3 id="silly">(fidget buttons)</h3>
       </div>
 </section>
 <!-- Footer -->
