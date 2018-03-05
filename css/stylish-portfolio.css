@@ -335,6 +335,9 @@ h4 {
 .fa-js-square{
   color: #03BF94;
 }
+.row{
+  margin:0;
+}
 
 .service-icon {
   background-color: rgba(62, 57, 68, 0.4);
