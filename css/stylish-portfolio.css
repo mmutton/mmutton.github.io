@@ -144,6 +144,7 @@ background-attachment:scroll;
 }
 
 #workButton{
+  width: 10em;
   font-size: 1.4em;
   font-family: 'Rancho', cursive;
 font-weight: normal;
@@ -172,6 +173,7 @@ font-weight: normal;
 
 
 #skillsButton{
+  width: 10em;
   font-family: 'Rancho', cursive;
 font-weight: normal;
 font-size: 1.4em;
