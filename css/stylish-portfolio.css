@@ -305,7 +305,7 @@ h4 {
 }
 
 #skills {
-  background-image: url("../img/hammersWhiteOver.jpg");
+  background-image: url("../img/hammersWhiteOver.jpg"); /*Unsplash photo: Adam Sherez*/
   padding-top: 0;
   padding-bottom: 25%;
 }
@@ -313,9 +313,8 @@ h4 {
 #bigSkills{
   font-size: 4em;
   color: rgba(255,255,255, .8);
-  padding-top: 1.2em;
+  /*padding-top: 1em;*/
   text-transform: uppercase;
-  margin-bottom: 8%;
   text-shadow: 2px 2px 1px rgba(62, 57, 68, 0.4);
 }
 
@@ -479,7 +478,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: rgba(3, 191, 148, 0.8);
+  background-color: rgb(3, 191, 148);
   transition: background-color 0.15s ease-in-out;
   box-shadow: 2px 2px 2px  rgba(62, 57, 68, 0.8); 
 }
@@ -564,18 +563,16 @@ margin:auto;  z-index:1;
 }
 
 #yourbutton:active {
-  background-color: #350d63;
-  box-shadow: 0 5px #666;
+  background-color: #a25fef;
+    box-shadow: 0 2px 2px #999;
   transform: translateY(4px);
-  color: #f243af;
+  color: #fff;
 }
 #yourbutton:focus {
-  background-color: #350d63;
-  color: #f243af;
+  background-color: #a25fef;
+  color: #fff;
 }
-#yourbutton:active{
-  box-shadow: 0 2px 2px #999;
-}
+
 #angryDot {
 
   color: rgba(62, 57, 68, 0.8);
@@ -594,7 +591,7 @@ margin:auto;  z-index:1;
 }
 
 #angryDot:hover {
-  color:#d84b60;
+  color:rgba(62, 57, 68, 0.8);
   background-color: #03BF94!important;
   /* Toggle our animation play state to running when we are hovering over our sticker */
   animation-play-state: running;
@@ -603,7 +600,7 @@ margin:auto;  z-index:1;
  outline: none;
 }
 #angryDot:active{
- background-color:#f243af!important; 
+ background-color:#a25fef!important; 
  border-color: transparent;
  color: #fff;
 }
