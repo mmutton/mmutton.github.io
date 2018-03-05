@@ -705,12 +705,14 @@ font-size: 1.4em;
 }
 
 #websites{
+  font-weight: normal;
   color: rgba(62, 57, 68, 0.8)!important ;
   padding-bottom: 40px;
   padding-top: 100px;
 
 }
 #otherProjects{
+   font-weight: normal;
   color: rgba(62, 57, 68, 0.8)!important ;
   padding-bottom: 40px;
 }
