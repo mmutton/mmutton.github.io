@@ -43,9 +43,6 @@
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#projects">Projects</a>
       </li>
-<!--       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#websites">Websites</a>
-      </li> -->
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#callout">Contact</a>
       </li>
@@ -59,8 +56,7 @@
   <header class="masthead d-flex">
     <div class="container text-center my-auto">
       <h1 class="mb-1">Molly Brooke</h1>
-      <h3 class="mb-5 animated rotateIn">Portfolio</h3>
-      </h3>
+      <h2 class="mb-5 animated rotateIn" id="spinPortfolio">Portfolio</h2>
       <a class="btn btn-primary btn-xl js-scroll-trigger" id="infoBtn" href="#about">Info</a>
     </div>
     <div class="overlay"></div>
@@ -75,11 +71,11 @@
           <h2 class="aboutContent">
             I'm Molly.&nbsp; I'm a web developer focused on visual design. My goal is to create digital experiences that are simple, intuitive and enjoyable.</h2>
    
-<h1 class="team">The World Wide Web is beautiful!</h1><br>
+<h3 class="www">The World Wide Web is beautiful!</h3><br>
        
 
           <a class="btn btn-dark btn-xl js-scroll-trigger" id="skillsButton" href="#skills">Skills</a >
-          <a class="btn btn-dark btn-xl js-scroll-trigger" id="workButton" href="#work">Projects</a>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" id="projectsButton" href="#projects">Projects</a>
         </div>
       </div>
     </div>
@@ -89,7 +85,7 @@
   <section class="content-section bg-light text-center" id="skills">
     <div class="container">
       <div class="content-section-heading">
-    <!--     <h3 class="text-secondary mb-0" id="learning">I'm always learning new technologies and techniques</h3> -->
+
         <h2 class="mb-5" id="tools">Languages,  Platforms,  Libraries and Tools</h2>
       </div>
       <div class="row">
@@ -104,24 +100,21 @@
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="fab fa-css3"></i>
           </span>
-          <h4>CSS3
-          </h4>
+          <h4>CSS3</h4>
           <p class="text-faded mb-0"></p>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="fab fa-js-square"></i>
           </span>
-          <h4>JavaScript
-          </h4>
+          <h4>JavaScript</h4>
           <p class="text-faded mb-0"></p>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="fas fa-hashtag"></i>
           </span>
-          <h4>C#
-          </h4>
+          <h4>C#</h4>
           <p class="text-faded mb-0"></p>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 mb-5 mb-lg-0">
@@ -129,9 +122,7 @@
   <!-- homeade bootstrap icon   svg -->
             <svg id="bigB" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 2000 2008.3"><path d="M1015.1 864.6c51.1 0 89.8-11.1 116.2-33.3 26.4-22.2 39.6-55 39.6-98.3 0-42.8-13.2-75.3-39.6-97.5-26.4-22.8-65.1-34.2-116.2-34.2H835.8v263.3L1015.1 864.6 1015.1 864.6z"/><path d="M1173.4 1123.7c-32.6-27.2-81.7-40.8-147.3-40.8H835.8v325.8h190.3c65.1 0 113.9-13.6 146.5-40.8 33.1-27.2 49.7-68.3 49.7-123.3C1222.2 1190.6 1205.9 1150.4 1173.4 1123.7z" class="a"/><path d="M1676.9 0H323.1C144.6 0 0 144.6 0 323.1v1362.1c0 178.4 144.6 323.1 323.1 323.1h1353.8c178.4 0 323.1-144.6 323.1-323.1V323.1C2000 144.6 1855.4 0 1676.9 0zM1423.4 1538.7c-81.9 58.9-206.6 88.3-373.8 88.3H511.6V383h486.6c174.6 0 300.8 26.1 378.9 78.3 78.6 52.2 117.9 135.8 117.9 250.8 0 60.6-14.3 112.2-42.9 155-28.6 42.2-70.2 73.6-124.6 94.2 69.6 20 123.5 56.9 161.7 110.8 38.2 53.9 57.3 120 57.3 198.3C1546.4 1390.3 1505.4 1479.8 1423.4 1538.7z"/></svg>
           </span>
-          <h4>
-          Bootstrap
-          </h4>
+          <h4>Bootstrap</h4>
           <p class="text-faded mb-0"></p>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 mb-5 mb-lg-0">
@@ -139,22 +130,20 @@
   <!-- homemade squarespace icon svg  -->
             <svg id="squarespace" xmlns="http://www.w3.org/2000/svg" width="430" height="430" viewBox="0 0 430.1 430.1"><path d="M71.2 197.4L200.4 67.5c32.4-32.6 85-32.6 117.4 0 7.8 8.2 7.4 21.4-0.6 29.4 -8.1 8.2-21.2 8.2-29.4 0l-2-2.3c-16.3-13.9-40.8-13.1-56.1 2.4L97.7 229.8c-8.7 8.1-21.8 8.1-29.9-0.1 -8.1-8.1-8.1-21.4 0-29.5C68.8 199.1 70 198.2 71.2 197.4zM361.2 200.2c-8.1-8.1-21.2-8.1-29.3 0 -1.1 1.1-2 2.3-2.8 3.5l-128.6 129.4c-16.2 16.3-42.5 16.3-58.7 0l-0.6-0.1c-8.1-8.1-21.2-8.1-29.3 0 -8.1 8.1-8.1 21.4 0 29.5 1 1 2.1 2 3.3 2.7 32.6 29.9 83.1 29.1 114.7-2.6L361.2 229.7C369.3 221.6 369.3 208.4 361.2 200.2zM159.3 285.9c-1.2 0.8-2.4 1.7-3.5 2.8 -8.1 8.1-8.1 21.4 0 29.5 8.1 8.1 21.2 8.1 29.9 0.1l132.1-132.9c16.2-16.3 42.5-16.3 58.7 0 16.2 16.3 16.2 42.7 0 59L251.2 371.1c16.2 16.3 42.5 16.3 58.7 0l95.9-97c32.4-32.6 32.4-85.5 0-118.1 -32.4-32.6-85-32.6-117.4 0L159.3 285.9zM141.7 274.1L273.2 141.2c8.1-8.2 8.1-21.4 0-29.5 -8.1-8.2-21.2-8.2-29.3 0 -1.1 1.1-2 2.3-2.8 3.5L112.4 244.6c-16.2 16.3-42.5 16.3-58.7 0 -16.2-16.3-16.2-42.7 0-59L178.9 59c-16.2-16.3-42.5-16.3-58.7 0l-95.9 97c-32.4 32.6-32.4 85.5 0 118.1C56.7 306.7 109.3 306.7 141.7 274.1z" /></svg>
           </span>
-          <h4>
-          Squarespace
-          </h4>
+          <h4>Squarespace</h4>
           <p class="text-faded mb-0"></p>
         </div>
-</div>
-
-</div>
+      </div>
+    </div>
 
   </section>
+<!--   end Skills section -->
 
   <!-- Portfolio -->
-  <section class="content-section" id="work">
+  <section class="content-section" id="projectsWebsites">
     <div class="container">
       <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0"></h3>
+    
         
 
 <!--     projects -->
@@ -164,7 +153,8 @@
      <div class="container" id="projects">
       <div class="content-section-heading text-center">
         <!-- <h3 class="text-secondary mb-0">Portfolio</h3> -->
-        <h2 class="mb-5" id="otherProjects">HTML, CSS and Javascript Projects</h2>
+        <h2 class="mb-5" id="otherProjects">HTML, CSS and Javascript Projects</h2><br>
+            <h3 class="text-secondary mb-0">created using vanilla JS, jQuery, paper.js and howler.js</h3><br>
       </div>
 
       <div class="row no-gutters">
@@ -213,7 +203,8 @@
           <img class="img-fluid" src="img/ShoppingListScreenshotResized.png" alt=""></a>
         </div>
       </div>
-<h2 class="mb-5" id="websites">Squarespace Websites</h2>
+<h2 class="mb-5" id="websites">Websites</h2>
+      <h3 class="text-secondary mb-0">Sites designed using Squarespace</h3><br>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6">
@@ -289,20 +280,20 @@
 <!-- Callout Contact Section-->
 <div class="element-with-video-bg jquery-background-video-wrapper" id="callout">
   <div class="element-with-video-bg jquery-background-video-wrapper">
-  <video class="my-background-video jquery-background-video" loop autoplay muted poster="img/RidePoster.jpg">
-    <source src="video/BridgeRiderShortblurR.mp4" type="video/mp4">
-    <source src="video/BridgeRiderShortblurR.webm" type="video/webm">
-      <source src="video/BridgeRiderShortblur.ogv" type="">
+  <video class="my-background-video jquery-background-video" id="myVideo" loop autoplay muted poster="img/RidePoster.jpg">
+    <source src="video/BridgeRiderNoTransitionR.mp4" type="video/mp4">
+    <source src="video/BridgeRiderNoTransitionR.webm" type="video/webm">
+      <source src="video/BridgeRiderNoTransitionR.ogv" type="video/ogv">
   </video>
-      <div class="video-overlay"></div>
-    <div class="page-width">
-        <div class="video-hero--content">
+<!--   <div class="video-overlay"></div>
+ --><div class="page-width">
+    <div class="video-hero--content">
   <a class="btn btn-dark btn-xl js-scroll-trigger" id="hi" target="blank" href="https://808webdesign.com/contact/">Contact Molly</a>
-        </div>
     </div>
+    </div>
+  </div>
 </div>
 
- </div>
 </div>
 <!-- silly button business -->
 <section class="content-section bg-light" id="buttonz">
