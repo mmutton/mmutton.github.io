@@ -65,33 +65,10 @@ var onMapClickHandler = function(event) {
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
 
-$('.jquery-background-video').bgVideo({fadeIn: 2000});
-$('.my-background-video').bgVideo({
-  fullScreen: false, // Sets the video to be fixed to the full window - your <video> and it's container should be direct descendents of the <body> tag
-  fadeIn: 500, // Milliseconds to fade video in/out (0 for no fade)
-  pauseAfter: 120, // Seconds to play before pausing (0 for forever)
-  fadeOnPause: false, // For all (including manual) pauses
-  fadeOnEnd: true, // When we've reached the pauseAfter time
-  showPausePlay: true, // Show pause/play button
-  pausePlayXPos: 'right', // left|right|center
-  pausePlayYPos: 'top', // top|bottom|center
-  pausePlayXOffset: '15px', // pixels or percent from side - ignored if positioned center
-  pausePlayYOffset: '15px' // pixels or percent from top/bottom - ignored if positioned center
+
+
+
+$(document).ready(function(){
+  $('.my-background-video').bgVideo();
 });
-
-var video = document.getElementById("myVideo");
-
-// Get the button
-var btn = document.getElementById("myBtn");
-
-// Pause and play the video, and change the button text
-function myFunction() {
-    if (video.paused) {
-        video.play();
-        btn.innerHTML = "Pause";
-    } else {
-        video.pause();
-        btn.innerHTML = "Play";
-    }
-}
 

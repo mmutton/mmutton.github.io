@@ -48,7 +48,6 @@ h2.mb-5 {
   font-weight: 300;
   color: #fff;
   text-shadow:  1px 2px 4px rgba(62, 57, 68, 0.8);
-  margin-top: 38px;
   padding-top: 30px;
 }
 
@@ -215,7 +214,8 @@ h3.www{
     height: 100vh; 
   }
   .masthead h1 {
-    font-size: 5.5rem; 
+    font-size: 6.5rem; 
+    font-weight: bold;
   } 
 }
 @media screen and (max-width:800px) {
@@ -303,11 +303,17 @@ h4 {
 }
 
 #skills {
-background-image: url("../img/hammersWhiteOver.jpg");
+  background-image: url("../img/hammersWhiteOver.jpg");
   padding-top: 20%;
   padding-bottom: 25%;
 }
 
+#bigSkills{
+  font-size: 4em;
+  color: rgba(255,255,255, .5);
+  padding:0;
+  text-transform: uppercase;
+}
 
 #projectsWebsites {
   padding-top: 2rem;
@@ -432,7 +438,7 @@ background-image: url("../img/hammersWhiteOver.jpg");
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);  
 }
-/*bootstrap and squarespace icons*/
+/*bootstrap and squarespace svg icons*/
 }
 #squarespace {
   width: 1em;
@@ -619,11 +625,8 @@ ul {
   list-style-type: none;
 }
 
-.demo-video-wrapper {
-  background-image: url(https://d3k5xyayaartr5.cloudfront.net/_assets/home-video/beach-waves-loop.jpg);
-}
 
-/* Video overlay and content *//* Allows right click menu on the video */
+/* Video and content *//* Allows right click menu on the video */
 .video-overlay {
   position: absolute;
   top: 0;
@@ -641,8 +644,6 @@ ul {
   margin: 250px 0;
   text-shadow: 0 0 5px rgba(0,0,0,0.4);
 }
-
-
 /* Other stuff */
 
 .cf:before,
@@ -658,7 +659,6 @@ ul {
   max-width: 960px;
   margin: 0 auto;
 }
-
 
 /* CSS from jQuery Background Video plugin */
 /**
@@ -689,62 +689,8 @@ ul {
        -o-transform: translate(-50%,-50%);
         transform: translate(-50%,-50%);
 }
-/**
- * Fade in videos
- * Note the .js class - so non js users still
- * see the video
- */
-.js .jquery-background-video {
-  opacity: 0;
-  -webkit-transition: opacity 300ms linear;
-      transition: opacity 300ms linear;
-}
-.js .jquery-background-video.is-visible {
-  opacity: 1;
-}
 
-/**
- * Pause/play button
- */ 
-.jquery-background-video-pauseplay {
-  position: absolute;
-  background: red;
-  border: none;
-  box-shadow: none;
-  width: 20px;
-  height: 20px;
-  top: 15px;
-  right: 15px;
-  padding: 0;
-  cursor: pointer;
-  outline: none !important;
-}
-.jquery-background-video-pauseplay span {
-  display: none;
-}
-.jquery-background-video-pauseplay:after,
-.jquery-background-video-pauseplay:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  -webkit-transition: all .3s ease;
-      transition: all .3s ease;
-}
-.jquery-background-video-pauseplay.play:before {
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #FFF;
-}
-.jquery-background-video-pauseplay.pause:before,
-.jquery-background-video-pauseplay.pause:after {
-  border-top: 10px solid #FFF;
-  border-bottom: 10px solid #FFF;
-  border-left: 5px solid #FFF;
-}
-.jquery-background-video-pauseplay.pause:after {
-  left: 10px;
-}
+
 .element-with-video-bg {
   background-image: url(img/RidePoster.jpg); /*photo: MBrooke;*/
 }
