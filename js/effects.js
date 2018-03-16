@@ -1,5 +1,5 @@
 
-
+ // First One of the Silly Buttons (makes it wiggle)
 
 $( document ).click(function() {
   $( "#yourbutton" ).toggle( "explode" );
