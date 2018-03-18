@@ -290,7 +290,7 @@ h4 {
   padding-bottom: 5.5rem; 
 }
 #buttonz{
-  padding-top: 0;
+  padding-top: 3em;
   padding-bottom: 15%;
   background-color: #E7E7E7!important;
 
@@ -469,6 +469,7 @@ h4 {
   font-weight: normal;
 }
 footer.footer {
+  background-color:  #E7E7E7;
   padding-top: 5rem;
   padding-bottom: 1rem; 
 }
